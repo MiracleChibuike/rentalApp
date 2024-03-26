@@ -1,0 +1,112 @@
+/* Personal Info */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Cabin Condensed", sans-serif
+}
+
+:root {
+    --clr-blue: #363fbc;
+    --clr-dark: #000;
+    --clr-white: #fff;
+    --clr-semi-white: #f2f2f2;
+    --clr-gray: rgb(112, 104, 104);
+    --clr-red: #d92424;
+}
+.headre {
+    border-top: 1px solid var(--clr-gray);
+    padding: 15px 20px;
+    box-shadow: 0 0 3px var(--clr-dark);
+}
+
+.title {
+    display: flex;
+    justify-content: center;
+    text-transform: uppercase;
+    color: var(--clr-gray);
+}
+
+.cancel-home {
+    display: flex;
+    justify-content: flex-end;
+    position: relative;
+    bottom: 15px;
+}
+
+.userMsg {
+    font-weight: lighter;
+}
+
+.userMsg small {
+    color: var(--clr-red);
+    font-weight: bold;
+}
+
+.formContentsInfo {
+    margin: 20px 10px;
+    padding: 10px 8px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.firstNameInput small,
+.middleName small,
+.last small {
+    color: var(--clr-red);
+}
+
+#Small-message {
+    color: var(--clr-gray);
+    font-size: 13px;
+    font-weight: normal;
+}
+
+.firstNameInput,
+.middleName,
+.last {
+    display: flex;
+    flex-direction: column;
+    margin: 20px 0;
+}
+
+.formContentsInfo ::placeholder {
+    font-size: 15px;
+    font-weight: lighter;
+}
+
+.firstNameInput label,
+.middleName label,
+.last label {
+    padding: 10px 0;
+}
+
+.firstNameInput input,
+.middleName input,
+.last input {
+    padding: 10px 8px;
+    width: 300px;
+    outline: none;
+    border: 1px solid var(--clr-gray);
+    border-radius: 3px;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.firstNameInput input:hover,
+.middleName input:hover,
+.last input:hover {
+    outline: 1px solid var(--clr-blue);
+    transition: .3s;
+    cursor: pointer;
+}
+
+@media (width <=280px) {
+
+    .firstNameInput input,
+    .middleName input,
+    .last input {
+        width: 250px;
+    }
+}

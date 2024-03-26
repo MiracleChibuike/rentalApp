@@ -1,0 +1,29 @@
+
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Cabin Condensed", sans-serif
+}
+
+:root{
+  --clr-blue: #363fbc;
+  --clr-dark: #000;
+  --clr-white: #fff;
+  --clr-semi-white: #f2f2f2;
+  --clr-gray: rgb(112, 104, 104);
+  --clr-red: #d92424;
+}
+
+a{
+  text-decoration: none;
+}
+/* Main Container */
+/* .mainContainer{
+  background: var(--clr-semi-white);
+} */
+/* .HeaderSection{
+} */
+
+
